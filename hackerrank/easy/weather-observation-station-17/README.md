@@ -1,4 +1,4 @@
-# Weather Observation Station 16
+# Weather Observation Station 17
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
 
@@ -25,13 +25,13 @@ where *LAT\_N* is the northern latitude and *LONG\_W* is the western longitude.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T03:49:00.801Z  
+**Submitted:** 2026-09-08T03:59:14.734Z  
 
 ```sql
 /*
 Enter your query here.
 */
-select round(min(lat_n),4) from station where lat_n > 38.7780 
+select round((long_w),4) from station where lat_n > 38.7780 order by lat_n asc limit 1
 
 ```
 
