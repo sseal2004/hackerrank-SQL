@@ -1,4 +1,4 @@
-# Weather Observation Station 19
+# Weather Observation Station 20
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -26,13 +26,16 @@ where *LAT\_N* is the northern latitude and *LONG\_W* is the western longitude.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T04:22:56.622Z  
+**Submitted:** 2026-09-08T05:18:36.436Z  
 
 ```sql
 /*
 Enter your query here.
 */
-select round(sqrt(power(max(lat_n)-min(lat_n),2)+power(max(long_w)-min(long_w),2)),4) from station
+select round(lat_n,4) from(
+    SELECT lat_n ,
+     row_number() over (order by lat_n) as n  
+     from station) as tab where n=250;
 
 ```
 
