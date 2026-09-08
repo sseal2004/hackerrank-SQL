@@ -26,26 +26,8 @@
 | Language | Solutions |
 |:---:|:---:|
 | SQL | **23** |
-| Java | **3** |
-| db2 | **3** |
 
-## 📂 Repository Structure
 
-```
-📦 coding-solutions/
-├── leetcode/
-│   ├── easy/
-│   ├── medium/
-│   └── hard/
-├── hackerrank/
-├── codechef/
-└── gfg/
-```
+My Certification
 
----
-
-<div align="center">
-
-*Last updated: 2026-09-08* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
-
-</div>
+<img width="822" height="627" alt="image" src="https://github.com/user-attachments/assets/8c05fff9-0c23-4918-8505-c20d820ff7a5" />
