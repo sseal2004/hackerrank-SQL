@@ -1,4 +1,4 @@
 /*
 Enter your query here.
 */
-select round(min(lat_n),4) from station where lat_n > 38.7780 
+select round((long_w),4) from station where lat_n > 38.7780 order by lat_n asc limit 1
